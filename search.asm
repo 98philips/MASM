@@ -1,7 +1,7 @@
 .model small
 .stack 100h
 .data
- arr db 16h,48h,41h,03h,32h3232
+ arr db 16h,48h,41h,03h,32h
  msg1 db 10,13,"Element not found !$"
  msg2 db 10,13,"Number found at position : $"
  msg3 db 10,13,"Key : $"

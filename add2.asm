@@ -22,7 +22,7 @@ mov ah,01h
 int 21h
 mov bl,al
 
-mov dx,offset b56
+mov dx,offset b
 mov ah,09h
 int 21h
 
