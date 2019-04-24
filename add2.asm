@@ -1,4 +1,5 @@
 .model small
+.stack 100h
 .data
 a db 0ah,0dh, "Enter the first number : $"
 b db 0ah,0dh, "Enter the second number : $"
