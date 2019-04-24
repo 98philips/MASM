@@ -36,9 +36,9 @@ L1:	cmp al,arr [si]
 	jz L2
 	add si,01
 	loop L1
-L2:	cmp si,05
+	cmp si,05
 	jz L3
-	mov dx,offset msg2
+L2:	mov dx,offset msg2
 	mov ah,09h
 	int 21h
 	mov dx,si
